@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DoList</title>
+</head>
+<body>
+    <ul>
+        <li>First Element </li>
+        <li>Second Element </li>
+        <li>Third Element</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>One</td>
+            <td>Two </td>
+        </tr>
+        <tr>
+            <td>Three</td>
+            <td>Four</td>
+        </tr>
+    </table>
+
+
+
+    <script>
+        //rootnode
+    //    console.log(document.documentElement)
+    //    console.log(document.body)
+    //    console.log(document.head)
+
+    for(node of document.body.children){
+        console.log(document.body.children)
+    }
+
+       //childeren
+    //    console.log(document.body.childNodes)
+    //    console.log(document.body.children)
+    //    console.log(document.body.firstChild)
+    //    console.log(document.body.lastChild)
+    //    console.log(document.body.lastElementChild)
+    //    console.log(document.body.lastElementChild)
+    // const childerensBody=Array.from(document.body.children)
+    // console.log(childerensBody)
+
+    //siblings
+
+//  const ulTag=(document.body.children[0])
+//  const firstLi=ulTag.children[0]
+//  const secondtLi=ulTag.children[1]
+//  console.log(secondtLi.previousElementSiblin.textContent)
+
+//Table dom manipulation
+const tableTag = document.body.children[1]
+console.log(tableTag.tBodies[0].rows[0].cells[0].textContent)
+
+</script>
+</body>
+</html>

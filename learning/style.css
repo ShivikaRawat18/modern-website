@@ -1,0 +1,56 @@
+p{
+   color:rgba(255, 0, 0, 0.979);
+}
+
+#paragraph1{
+    color:yellow;
+}
+.green-text{
+
+    color:green;
+}
+
+#h{
+    font-size: 50px;
+}
+#border{
+     border: 5px solid aqua; 
+    border-radius: 100%;
+   
+     
+}
+.shivika{
+    height: 500px;
+    width: 50px;
+    border: 2px solid brown ;
+    /* border-radius: 50%; */
+    background-color: blueviolet;
+}
+body{
+    border: 10px dotted black;
+    height: 1000px;
+}
+/* .div1{
+    background-color: blueviolet; */
+    /* height: 500px; 
+    width: 500px;
+    max-width: 340px;
+    max-height:70px ; */
+
+.div1{
+    border: 1px 5px 7px 10px dotted rgb(21, 255, 0);
+    border: 1px 5px 7px 10px dotted red;
+    border: 1px 5px 7px 10px dotted red;
+    border: 1px 5px 7px 10px dotted rgb(0, 255, 85);
+    /* padding-top: 20px;
+    padding-bottom: 50%; */
+    padding: 25px 50px 40px 60px;
+}
+
+#marg{
+ margin-top: 50px;
+}
+#colsp{
+    margin-bottom: 30px;
+}
+
